@@ -29200,9 +29200,9 @@ J.kX(p,q)}return n},
 aMm(a,b,c){var s=A.a1(a,!0,c)
 B.b.f7(s,b)
 return s},
-dh(a){var s="https://creator.drishticps.org"
+dh(a){var s="https://creator-lac.vercel.app"
 switch(a){case"dev":return s
-case"prod":return"https://creator-lac.vercel.app"
+case"prod":return s
 default:return s}},
 aW8(a){var s,r=a.d
 if(r.b===0&&a.a.b===0&&a.b.b===0&&a.c.b===0)return!1
