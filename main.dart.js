@@ -29231,9 +29231,9 @@ J.kW(p,q)}return n},
 aME(a,b,c){var s=A.a0(a,!0,c)
 B.b.f6(s,b)
 return s},
-d2(a){var s="http://192.168.31.85:5000"
+d2(a){var s="https://creator-lac.vercel.app"
 switch(a){case"dev":return s
-case"prod":return"https://creator-lac.vercel.app"
+case"prod":return s
 default:return s}},
 aWp(a){var s,r=a.d
 if(r.b===0&&a.a.b===0&&a.b.b===0&&a.c.b===0)return!1
