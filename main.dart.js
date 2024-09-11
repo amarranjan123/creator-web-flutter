@@ -44879,10 +44879,7 @@ $1(a){if(a==null||a.length===0)return"Please enter your name"
 return null},
 $S:36}
 A.arP.prototype={
-$1(a){var s
-if(a==null||a.length===0)return"Please enter your Employee ID"
-s=A.bW("^\\d+$",!0,!1)
-if(!s.b.test(a))return"Employee ID must be a valid number"
+$1(a){if(a==null||a.length===0)return"Please enter your Employee ID"
 return null},
 $S:36}
 A.arQ.prototype={
@@ -45433,8 +45430,10 @@ A.axB.prototype={
 $1(a){return this.a.e=a},
 $S:18}
 A.axC.prototype={
-$1(a){if(a==null||a.length===0)return"Please enter your email or employee ID"
-return null},
+$1(a){var s
+if(a==null||a.length===0)return"Please enter your email ID"
+else{s=A.bW("^[\\w-]+(\\.[\\w-]+)*@([\\w-]+\\.)+[a-zA-Z]{2,7}$",!0,!1)
+if(!s.b.test(a))return"Please enter a valid email address"}return null},
 $S:36}
 A.axD.prototype={
 $1(a){return this.a.f=a},
